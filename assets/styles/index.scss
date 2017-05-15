@@ -1,0 +1,74 @@
+// [bootstrap] override css
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Superstore';
+  font-weight: 400;
+  line-height: 1.1;
+  color: inherit;
+}
+
+a, a:hover, a:focus {
+  color: #000000;
+}
+
+body {
+  font-family: Superstore-light;
+  font-size: 2.5rem;
+  color: #424242;
+
+  .form-group {
+    .input-sm {
+      font-size: 2rem;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+    }
+  }
+
+  .form-control {
+    &.input-sm {
+      height: 35px;
+      font-size: 1.6rem;
+      border-radius: 0;
+      border: 1px solid #bdbdbd;
+    }
+  }
+
+  .btn {
+    &.btn-default {
+      &.btn-findjob {
+        background-color: #ee7410;
+        font-size: 2.3rem;
+        padding: 2px;
+        border: 0;
+        border-radius: 1px;
+        width: 120px;
+        outline-color: none;
+        outline-style: none;
+        outline-width: none;
+        &:hover {
+          background-color: #fd9927;
+        }
+        &:active {
+          background-color: #f15822;
+        }
+      }
+    }
+  }
+
+  input, select {
+    font-family: 'Microsoft Sans Serif';
+    font-size: 1rem;
+  }
+
+  select {
+    font-family: 'CSPrajad';
+  }
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+label {
+  margin-bottom: 0;
+}

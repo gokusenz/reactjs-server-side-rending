@@ -1,0 +1,78 @@
+@media (min-width: 1281px) {
+  .container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container>.navbar-header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+._center {
+  text-align: center;
+}
+
+._text-left {
+  text-align: left !important;
+}
+
+._margin-0 {
+  margin: 0;
+}
+
+._text-right {
+  text-align: right !important;
+}
+
+._font-size-20 {
+  font-size: 20px !important;
+}
+
+._color-red {
+  color: #d32f2f !important;
+}
+
+._pull-right {
+  font-family: 'Superstore-book';
+  font-size: 18px;
+  float: right !important;
+}
+
+._p-t-15 {
+  padding-top: 15px;
+}
+
+._p-t-30 {
+  padding-top: 30px;
+}
+
+._p-t-60 {
+  padding-top: 60px;
+}
+
+._m-b-30 {
+  margin-bottom: 30px;
+}
+
+._no-p {
+  padding:0
+}
+
+._no-p-r {
+  padding-right: 0;
+}
+
+._no-p-l {
+  padding-left: 0;
+}
